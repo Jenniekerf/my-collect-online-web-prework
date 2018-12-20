@@ -1,8 +1,8 @@
-def my_collect(collection)
+def my_collect(languages)
   i = 0 
   new_collection = []
-  while i < collection.length 
-  new_collection << yield(collection[i])
+  while i < languages.length 
+  new_collection << yield(languages[i])
   i = i + 1
   end
   new_collection
